@@ -8,7 +8,7 @@ const initialState = {
     { id: "id-4", name: "Annie Copeland", number: "227-91-26" },
   ],
 };
-console.log(initialState);
+// console.log(initialState);
 
 const contactsSlice = createSlice({
   name: "contacts",

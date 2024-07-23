@@ -10,7 +10,11 @@
   align-items: center;
   justify-content: space-between;
   max-width: 350px;
-  border: 1px solid black;
-  border-radius: 4px;
+  border: 1px solid rgb(163, 80, 80);
+  border-radius: 5px;
   padding: 7px;
+}
+.error {
+  color: red;
+  font-size: 16px;
 }

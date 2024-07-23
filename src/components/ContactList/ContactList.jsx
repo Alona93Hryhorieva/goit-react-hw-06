@@ -12,7 +12,7 @@ export default function ContactList() {
     if (typeof item.name === "string") {
       return item.name.toLowerCase().includes(filter.toLowerCase());
     }
-    return false; 
+    return false;
   });
 
   return (
@@ -22,6 +22,9 @@ export default function ContactList() {
           <Contact contactFrend={item} />
         </li>
       ))}
+      {filteredContacts.length === 0 && filter && (
+        <p className={css.error}>No matches found. Check the name</p>
+      )}
     </ul>
   );
 }

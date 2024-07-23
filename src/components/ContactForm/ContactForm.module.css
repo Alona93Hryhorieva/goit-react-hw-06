@@ -5,12 +5,13 @@
   flex-direction: column;
   gap: 15px;
   max-width: 300px;
-  border: 1px solid black;
+  border: 1px solid #96363b;
   border-radius: 5px;
 }
 .input {
   max-width: 300px;
   border: 1px solid cadetblue;
+  margin-left: 5px;
 }
 .input:focus {
   border-color: blue !important;
