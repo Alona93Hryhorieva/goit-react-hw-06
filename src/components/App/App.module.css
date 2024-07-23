@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  justify-content: center;
 }
 
 .logo {
@@ -44,4 +45,9 @@
 .title {
   padding-left: 15px;
   margin: 10px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
